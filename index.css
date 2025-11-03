@@ -1,0 +1,81 @@
+body {
+    color:white;
+    background: #2b3538;
+    background: #000000;
+    background: -webkit-linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background: -moz-linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#FFFFFF", GradientType=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    }
+
+    a {
+        color: #D4D4D4;
+        text-decoration: none;
+    }
+
+.spotify-link:hover{
+    color: #1DB954;
+    transition: all 0.3;
+}
+
+.desenvolvedor-link:hover{
+    color: rgb(170, 6, 211);
+    transition: 0,3
+}
+
+.segundaGuerra-link:hover{
+    color: rgb(187, 63, 63);
+}
+
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    footer img{
+        width: 55px;
+        height: 55px;
+    }
+
+    footer{
+        justify-content: center;
+        display: flex;
+    }
+
+    footer a{
+        margin: 185px;
+        align-items: center;
+    }
+
+    footer p{
+        margin-top: 2px;
+    }
+
+    .container{
+        padding: 0px 50px;
+    }
+
+    nav a:hover{
+        color: #FFFFFF ;
+        transition: all 0.3s ease-in-out;
+    }

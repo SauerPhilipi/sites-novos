@@ -1,0 +1,527 @@
+body{
+    color:white;
+    background: #2b3538;
+    background: #000000;
+    background: -webkit-linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background: -moz-linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#FFFFFF", GradientType=0);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    }
+
+    ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    }
+
+    a {
+    color: #D4D4D4;
+    text-decoration: none;
+    }
+
+    .center{
+    text-align: center;
+    }
+
+    button{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+
+    .resumo-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+
+    .resumo-card:hover{
+    transform: scale(1);
+    box-shadow:0px 0px 10px rgba(174, 0, 255, 0.5);
+    background-color:rgb(63, 63, 63);
+    }
+
+    .estados-unidos-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .estados-unidos-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(4, 0, 255, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .estados-unidos-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/EUA\ bandeira.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .estados-unidos-card:hover::before{
+      filter: blur(10px);
+    }
+    .reino-unido-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .reino-unido-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(4, 0, 255, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .reino-unido-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    left: 1;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/ReinoUnido.jpeg);
+    z-index: -1;
+    filter: blur(10px) grayscale(100);
+    }
+    .reino-unido-card:hover::before{
+      filter: blur(10px);
+    }
+    .franca-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .franca-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(4, 0, 255, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .franca-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/franca\ imagem\ site.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .franca-card:hover::before{
+      filter: blur(10px);
+    }
+    .uniao-sovietica-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .uniao-sovietica-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .uniao-sovietica-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/Uniao\ Sovietica\ bandeira.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .uniao-sovietica-card:hover::before{
+      filter: blur(10px);
+    }
+    .china-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .china-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .china-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/china\ bandeira\ site.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .china-card:hover::before{
+      filter: blur(10px);
+    }
+    .canada-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .canada-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(248, 0, 0, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .canada-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/Bandeira\ do\ Canadá\ –\ Wikipédia\,\ a\ enciclopédia\ livre.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .canada-card:hover::before{
+      filter: blur(10px);
+    }
+    .australia-card{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .australia-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgb(0, 162, 255);
+    background-color: rgb(63, 63, 63);
+    }
+    .australia-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/Bandera\ de\ Australia\ -\ Wikipedia\,\ la\ enciclopedia\ libre.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .australia-card:hover::before{
+    filter: blur(10px);
+    }
+    .india-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .india-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgb(255, 174, 0);
+    background-color: rgb(63, 63, 63);
+    }
+    .india-card::before{
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    left: 1;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/India\ \(1947\ -\ present\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
+    }
+    .india-card:hover::before{
+      filter: blur(10px);
+    }
+    .polonia-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .polonia-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    background-color: rgb(63, 63, 63);
+    }
+    .polonia-card::before{
+      content: "";
+      position: absolute;
+      border-radius: 50px;
+      top: 0;
+      left: 1;
+      right: 0;
+      width: 70%;
+      height: 100%;
+      background-image: url(img/Polen.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: blur(10px) grayscale(100);
+      z-index: -1;
+    }
+    .polonia-card:hover::before{
+      filter: blur(10px);
+    }
+    .brasil-card{
+    position:relative;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: 0.35s;
+    background-color: #252525;
+    cursor: pointer;
+    transform: scale(0.99);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    }
+    .brasil-card::before {
+    content: "";
+    position: absolute;
+    border-radius:50px;
+    right: 0;
+    left: 1;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/bandeira\ Brasil.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px) grayscale(100); /* aplica blur APENAS no fundo */
+    transform: scale(1); /* evita bordas borradas */
+    z-index: -1; /* fica atrás do conteúdo */
+    }
+    .brasil-card:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(30, 255, 0, 0.5);
+    }
+    .brasil-card:hover::before{
+    opacity: 1;
+    filter: blur(10px);
+    }
+    .alemanha-card {
+    position: relative;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    }
+    .alemanha-card::before{
+    content: "";
+    position: absolute;
+    border-radius:50px;
+    right: 0;
+    left: 1;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/Germany.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px) grayscale(100);
+    transform: scale(1); 
+    z-index: -1; 
+    }
+    .alemanha-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    background-color:rgb(63, 63, 63);
+    }
+    .alemanha-card:hover::before{
+    filter: blur(10px);
+    }
+    .Italia-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .Italia-card:hover{
+      transform: scale(1);
+      box-shadow: 0px 0px 10px rgb(0, 255, 55);
+      background-color:rgb(63, 63, 63);
+    }
+    .Italia-card::before{
+      content: "";
+      position: absolute;
+      border-radius: 50px;
+      right: 0;
+      left: 1;
+      top: 0;
+      width: 70%;
+      height: 100%;
+      background-image: url(img/Italy.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(10px) grayscale(100);
+      transform: scale(1);
+      z-index: -1;
+    }
+    .Italia-card:hover::before{
+      filter: blur(10px);
+    }
+    .japao-card{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #252525;
+    transition: 0.35s;
+    cursor: pointer;
+    transform: scale(0.99);
+    }
+    .japao-card:hover{
+      transform: scale(1);
+      box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+      background-color:rgb(63, 63, 63);
+    }
+    .japao-card::before{
+      content: "";
+      position: absolute;
+      border-radius: 50px;
+      top: 0;
+      left: 1;
+      right: 0;
+      width: 70%;
+      height: 100%;
+      background-image: url(img/Japan.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform:scale(1);
+      filter: blur(10px) grayscale(100);
+      z-index: -1;
+    }
+    .japao-card:hover::before{
+      filter: blur(10px);
+    }
+    .PaisesIMG{
+     height: 50px;
+     width: 80px;
+    }
+    .menuPrincipal-botao{
+      transform: scale(0.99);
+    }
+    .menuPrincipal-botao:hover{
+    transform: scale(1.03);
+    }
