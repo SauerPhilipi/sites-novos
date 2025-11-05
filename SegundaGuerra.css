@@ -10,17 +10,15 @@ body{
     list-style: none;
     }
 
-    html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    }
-
-
     ul{
     display: flex;
     list-style-type: none;
     align-items: center;
     padding: 16px;
+    }
+    
+    li{
+      font-size: 25px;
     }
 
     a {
