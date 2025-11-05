@@ -10,6 +10,12 @@ body{
     list-style: none;
     }
 
+    html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    }
+
+
     ul{
     display: flex;
     list-style-type: none;
@@ -326,14 +332,22 @@ body{
       filter: blur(10px);
     }
     .polonia-card{
+    position:relative;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
     border: 1px solid white;
     border-radius: 50px;
     margin: 5px;
     padding: 10px 20px;
-    background-color: #252525;
     transition: 0.35s;
+    background-color: #252525;
     cursor: pointer;
     transform: scale(0.99);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
     }
     .polonia-card:hover {
     transform: scale(1);
@@ -341,20 +355,20 @@ body{
     background-color: rgb(63, 63, 63);
     }
     .polonia-card::before{
-      content: "";
-      position: absolute;
-      border-radius: 50px;
-      top: 0;
-      left: 1;
-      right: 0;
-      width: 70%;
-      height: 100%;
-      background-image: url(img/Polen.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      filter: blur(10px) grayscale(100);
-      z-index: -1;
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    top: 0;
+    left: 1;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/Polen.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px) grayscale(100);
+    z-index: -1;
     }
     .polonia-card:hover::before{
       filter: blur(10px);
