@@ -22,10 +22,10 @@ ul {
     padding: 16px;
     }
 
-    a {
-        color: #D4D4D4;
-        text-decoration: none;
-    }
+a{
+    color: #D4D4D4;
+    text-decoration: none;
+ }
 
 .spotify-link:hover{
     color: #1DB954;
@@ -63,7 +63,7 @@ ul {
     }
 
     footer a{
-        margin: 185px;
+        margin: 190px;
         align-items: center;
     }
 
