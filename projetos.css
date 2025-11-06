@@ -1,0 +1,38 @@
+body{
+    color:white;
+    background: #2b3538;
+    background: #000000;
+    background: -webkit-linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background: -moz-linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(142deg, rgba(0, 0, 0, 1) 0%, rgba(102, 102, 102, 1) 75%, rgba(207, 207, 207, 1) 100%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#FFFFFF", GradientType=0);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    }
+
+    @media(max-width: 450px){
+        .Card-Site{
+         width: 435px;
+        }
+        p{
+            padding: 0px 9px;
+            margin: 9px;
+        }
+        
+        a{
+            padding: 150px;
+        }
+    }
+
+    a{
+     padding: 850px;
+     text-decoration: none;
+    }
+
+    .Card-Site{
+     color: white;
+     text-decoration: none;
+     border-radius: 50px;
+     border: 1px solid white;
+    }
