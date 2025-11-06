@@ -94,6 +94,123 @@ body {
         }
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width: 580px){
+        .Card-Site{ width: 335px;}
+
+        body{
+            background-position: center;
+            background-size: 3150px 4410px;
+        }
+        
+        img.ImagemPH {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 3px solid white;
+        margin: 20px;
+        }
+    }
+        @media (max-width: 580px) {
+        img.ImagemPH {
+        width: 400px;
+        height: auto;   /* mantém proporção */
+        border-radius: 50%;
+        border: 3px solid white;
+        max-width: 90%; /* evita overflow em telas muito pequenas */
+        }
+
+        img.gitHubLogo{
+            width: 270px;
+            height: 270px;
+        }
+
+        img.whppLogo{
+            width: 270px;
+            height: 270px;
+        }
+
+        img.instaLogo{
+            width: 270px;
+            height: 270px;
+        }
+
+        a.LINKS{
+            width: 12px;
+            padding: 250px;
+            align-items: center;
+        }
+
+        a.desenvolvedor-link{
+            font-size: 70px;
+            padding-right: 950px;
+        }
+
+        a.projetos-link{
+            font-size: 70px;
+        }
+
+        h2{
+            font-size: 80px;
+            width: 1500px;
+            margin: 20px;
+            margin-top: 50px;
+        }
+
+        footer a{
+            padding: 10;
+        }
+
+        .center{
+            width: 1780px;
+            height: 430px;
+        }
+
+        p{
+            width: 1750px;
+            font-size: 70px;
+            margin: 25px;
+            margin-top: 50px;
+        }
+        
+        a{
+            align-items: center;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
 ul {
     display: flex;
     justify-content: space-between;
